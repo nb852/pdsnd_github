@@ -5,7 +5,7 @@
 Explore US Bikeshare Data
 
 ### Description
-Describe what your project is about and what it does
+This project summarises and reports data from US bikeshare company Motivate for Chicago, New York City and Washington. User input allows for data to be filtered by city, month and day of the week. 
 
 ### Files used
 Include the files used
