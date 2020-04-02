@@ -163,12 +163,12 @@ def user_stats(df):
     print('\nCalculating User Stats...\n')
     start_time = time.time()
 
-    # TO DO: Display counts of user types
+    #Counts of user types
     user_count = df['User Type'].value_counts()
     print("The counts of the different user types are listed below:")
     print(user_count)
 
-    # TO DO: Display counts of gender
+    #Counts of gender
     # Handling exception as there is no gender column for Washington
     try:
         gender_count = df['Gender'].value_counts()
@@ -177,7 +177,7 @@ def user_stats(df):
     except:
         print("There is no gender data for this dataset.")
 
-    # TO DO: Display earliest, most recent, and most common year of birth
+    #Show earliest, most recent, and most common year of birth
     #Handling exception as there is no year of birth column for Washington
     #Integers used to show only the four digits over the years
     try:
